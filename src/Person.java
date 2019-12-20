@@ -16,7 +16,7 @@ public class Person {
     String husnummer = "3B";
     String nationalitet = "Dansk";
     String fritidsStringeresser = "Snitning, LOL, strikke";
-    String smarthomeDevices = "Xbox, 3 Smartlamper, Køleskab m.m."
+    String smarthomeDevices = "Xbox, 3 Smartlamper, Køleskab m.m.";
     String hojde = "1.56 m";
     String vaegt = "76 kg";
     double karaktergennemsnit =5.33;
