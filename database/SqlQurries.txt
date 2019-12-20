@@ -4,4 +4,4 @@ Eksempler på SQL statements;
 2.insert into QuizTabel (Spörgsmaal, Svar) values ('hvad er en giraff', 'Et dyr') // indsætter nye værdier i databasen
 3.delete from QuizTabel where id = 1; // sletter noget fra databasen
 4.update QuizTabel set Svar = 'lars løkke' // setter en ny værdig for svar kolonnen.
-5.
+5.DROP DATABASE Quiz; // sletter det hele
