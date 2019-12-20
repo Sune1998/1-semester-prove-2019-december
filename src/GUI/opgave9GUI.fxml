@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="486.0" layoutY="47.0" mnemonicParsing="false" text="1.København" />
+      <Button layoutX="486.0" layoutY="89.0" mnemonicParsing="false" text="2.Malmo" />
+      <Button layoutX="486.0" layoutY="131.0" mnemonicParsing="false" text="3.Næstved" />
+      <Text layoutX="52.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Spørgsmål 1" wrappingWidth="105.49072265625" />
+      <TextArea layoutX="5.0" layoutY="89.0" prefHeight="200.0" prefWidth="200.0" text="Hvad hedder Hovdestaden i&#10;Danmark?" />
+      <Text layoutX="91.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sørgsmål 1/10" />
+      <Text layoutX="77.0" layoutY="367.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0 rigtige 0 forkerte" />
+      <Button layoutX="496.0" layoutY="370.0" mnemonicParsing="false" onMouseClicked="#Skiptonextquistion" text="Spring over" />
+      <Button layoutX="5.0" layoutY="370.0" mnemonicParsing="false" text="Afslut" />
+      <ImageView blendMode="OVERLAY" fitHeight="400.0" fitWidth="608.0" layoutY="1.0">
+         <image>
+            <Image url="@../../../Downloads/Screenshot_2019-12-20%20merry%20cristmas%20at%20DuckDuckGo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
