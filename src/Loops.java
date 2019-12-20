@@ -9,7 +9,8 @@ public class Loops {
 
     private String brugere[] = {"Anders", "Birgit", "Carsten", "Dennis", "Esben"};
 
-    public String[] getBrugere() {
+    public String[] getBrugere()
+    {
         return brugere;
     }
 
