@@ -4,10 +4,13 @@
  * Licensed under the MIT License
  * 17/12/2019
  */
-
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Scanner;
 public class Loops {
 
-    private String brugere[] = {"Anders", "Birgit", "Carsten", "Dennis", "Esben"};
+    public String brugere[] = {"Anders", "Birgit", "Carsten", "Dennis", "Esben"};
 
     public String[] getBrugere()
     {
@@ -20,15 +23,19 @@ public class Loops {
         System.out.println("*******");
         l.printBrugereReverseArr();
         System.out.println("*******");
+        System.out.println("venter på et tal");
         l.waitingFor0();
+
     }
 
     /**
      * Viser en liste med brugere i konsollen
      */
     public void printBrugereArr() {
+        for (int i = 0; i < 1; i++) {
+            System.out.println(Arrays.asList(brugere));
+        }
 
-        // TODO Din kode her
     }
 
     /**
@@ -36,13 +43,24 @@ public class Loops {
      */
     public void printBrugereReverseArr() {
 
-        // TODO Din kode her
+        for (int i = brugere.length-1; i>= 0;i--) {
+            System.out.println(Collections.singletonList(brugere[i]));
+        }
 
     }
 
     public void waitingFor0() {
+        ;
+        while (true) {
+            Scanner input = new Scanner(System.in);
+            double a = input.nextDouble();
+            System.out.println("venter på 0. Skriv et tal");
+            if (a == 0) {
+                System.out.println("nu er det slut");
+                break;
+            }
+        }
 
-        // TODO Din kode her
  
     }
 }
